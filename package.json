@@ -1,0 +1,24 @@
+{
+  "name": "redlight_greenlight",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "clean": "ts-node clean.ts"
+  },
+  "devDependencies": {
+    "@types/simple-oauth2": "^4.1.1",
+    "jiti": "^1.12.9",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "@twurple/api": "^5.0.13",
+    "@twurple/auth": "^5.0.13",
+    "@twurple/chat": "^5.0.13",
+    "@twurple/eventsub": "^5.0.13",
+    "dotenv": "^10.0.0",
+    "simple-oauth2": "^4.3.0"
+  }
+}

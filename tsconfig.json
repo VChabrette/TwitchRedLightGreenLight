@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"importHelpers": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"downlevelIteration": true,
+		"moduleResolution": "node",
+		"target": "ES6",
+	},
+}
